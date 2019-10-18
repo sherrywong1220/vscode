@@ -1,38 +1,35 @@
 {
     "editor.tabSize": 2,
-    "editor.fontSize": 16,
-    "editor.renderWhitespace": "boundary",
-    "editor.wordWrap": "on",
-    "vim.useSystemClipboard": true,
-    "search.location": "panel",
+    "editor.snippetSuggestions": "top",
+    "editor.formatOnPaste": true,
+    "git.confirmSync": false,
+    "editor.wordWrap": "bounded",
     "window.zoomLevel": 0,
-    "workbench.colorTheme": "Night Owl Light",
-    "editor.fontFamily": "SF Mono",
-    "workbench.colorCustomizations":{
-        "input.foreground": "#4E4E4E",
-        "sideBar.foreground": "#4E4E4E",
-        "sideBar.background": "#FFFFFF",
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.rulers": [
+        80
+    ],
+    "editor.minimap.enabled": false,
+    "editor.renderLineHighlight": "all",
+    "javascript.format.enable": false,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "workbench.activityBar.visible": true,
+    "window.titleBarStyle": "native",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.fontSize": 14,
+    "editor.renderWhitespace": "boundary",
+    "workbench.colorTheme": "Github Light Theme - Gray",
+    "workbench.tree.indent": 18,
+    "files.insertFinalNewline": true,
+    "editor.matchBrackets": true,
+    "window.openFilesInNewWindow": "on",
+    "files.autoSave": "onFocusChange",
+    "vim.useSystemClipboard": true,
+    "workbench.colorCustomizations": {
         "list.focusBackground": "#FFF689",
-        "panel.background": "#FFFFFF",
-        "tab.activeBackground":"#FBFBFB",
+        "tab.activeBackground": "#FBFBFB",
         "tab.activeBorder": "#F29D53",
-        "tab.inactiveBackground":"#DCDCE3"
-    },
-    "customizeUI.activityBar": "bottom",
-    "workbench.useExperimentalGridLayout": true,
-    "customizeUI.fontSizeMap": {
-        "13px": "15px",
-        "12px": "15px",
-        "window-title": "12px", // Window title font when using custom titlebar
-        "tab-title": "12px",    // Used for editor tab titles
-        "monospace": "10.5px",  // Used for monospace fonts in user interface
-        "menu": "13px",         // Used for menu items (windows only)
-    },
-    "customizeUI.font.regular": "SF Mono",
-    "customizeUI.font.monospace": "SF Mono",
-    "customizeUI.stylesheet": {
-        ".search-view .search-widgets-container": "padding-top: 0px !important",
-        ".suggest-input-container": "padding: 3px 4px 3px !important;"
-    },
-    "workbench.tree.indent": 16
+    }
 }
